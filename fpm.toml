@@ -23,5 +23,8 @@ source-form = "free"
 
 [dependencies]
 # stdlib = { git = "https://github.com/fortran-lang/stdlib", branch = "stdlib-fpm" }
-odrpack = { git = "https://github.com/HugoMVale/odrpack95", branch = "main" }
+odrpack95 = { git = "https://github.com/HugoMVale/odrpack95", branch = "main" }
 # odepack = { git = "https://github.com/Nicholaswogan/odepack", branch = "main" }
+
+[dev-dependencies]
+test-drive = { git = "https://github.com/zoziha/test-drive", branch = "add-support-array" }
